@@ -1,0 +1,176 @@
+* {
+    font-family: 'Century Gothic';
+}
+
+#container {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.basic {
+    margin-top: 20px;
+}
+
+#header {
+    background-color: #3cb878;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    background-color: white;
+    height: 110px;
+    width: 110px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+#logo img {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#search {
+    background-color: #f9f9f9;
+    height: 40%;
+    text-align: left;
+    border: none;
+    padding-right: 50px;
+}
+
+#search::placeholder {
+    font-size: large;
+    color: #363636;
+    opacity: 10%;
+}
+
+#menu {
+    background-color: #e5e5e5;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+}
+
+#slider {
+    background-color: #a5a5a5;
+    height: 140px;
+}
+
+#content {
+    height: 400px;
+    margin: 20px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#big-footer {
+    display: flex;
+    background-color: #ebebeb;
+    height: 200px;
+}
+
+.menu-element {
+    text-align: center;
+    background-color: #ebebeb;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+}
+.menu-element:hover {
+    text-decoration: none;
+    color: black;
+}
+
+#b-header {
+    background-color: #3cb878;
+    text-align: center;
+    color: white;
+    height: 40px;
+    font-size: 25px;
+}
+
+#bestsellers {
+    margin: 20px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#bestsellers a img {
+    border: 2px #d7d7d7 solid;
+}
+
+#text-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#why-us, #our-products {
+    background-color: #ebebeb;
+    text-align: left;
+}
+
+#why-us h4, #our-products h4, #newsletter h4 {
+    margin-top: 10px;
+}
+
+#newsletter {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/img6.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+#newsletter input[type="text"] {
+    height: 40px;
+}
+
+#newsletter input::placeholder {
+    font-size: 25px;
+    color: #363636;
+    opacity: 10%;
+}
+
+#name, #surname {
+    margin-bottom: 20px;
+}
+
+#newsletter input[type="submit"] {
+    display: block;
+    margin: auto;
+    height: 40px;
+    font-size: 20px;
+    width: 100px;
+}
+
+#big-footer div {
+    background-color: #d7d7d7;
+    margin: 20px 10px 20px 10px;
+    text-align: center;
+}
+
+#big-footer div h4 {
+    margin-top: 5px;
+}
+
+#big-footer div ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#big-footer div ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#big-footer div ul li a:hover {
+    text-decoration: none;
+    color: black;
+}
