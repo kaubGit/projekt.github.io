@@ -3,7 +3,7 @@
 }
 
 #container {
-    margin: 10px auto;
+    margin: auto;
     display: flex;
     flex-direction: column;
 }
