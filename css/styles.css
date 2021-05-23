@@ -59,7 +59,7 @@
 }
 
 #slider {
-    background-color: #a5a5a5;
+    background-color: #e5e5e5;
     height: 140px;
 }
 
@@ -174,4 +174,86 @@
 #big-footer div ul li a:hover {
     text-decoration: none;
     color: black;
+}
+
+.slide {
+    display: none;
+    height: 100%;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+#previous, #next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -185px;
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+#next {
+    border-radius: 3px 0 0 3px;
+    right: 400px;
+}
+
+.which-slide {
+    position: absolute;
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+  
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.text {
+    position: relative;
+    margin: auto;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+#first-slide {
+    display: block;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/slider.jpg);
+    background-size: cover;
+}
+
+#second-slide {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/slider2.jpg);
+    background-size: cover;
+}
+
+#third-slide {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/slider3.jpg);
+    background-size: cover;
+}
+
+.slide p {
+    line-height: 140px;
 }

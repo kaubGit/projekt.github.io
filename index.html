@@ -17,7 +17,7 @@
         <div id="container" class="container">
             <div id="header" class="basic">
                 <a id="logo" href="index.html"><img src="img/logo.png" alt="logo" width="100px"></a>
-                <input type="text" placeholder="SZUKAJ" id="search" class="col-5 offset-md-4">
+                <input type="text" placeholder="SZUKAJ" id="search" class="col-6 offset-md-4">
             </div>
             <div id="menu" class="basic">
                 <a class="col-3 menu-element" href="index.html">PRODUKTY</a>
@@ -26,7 +26,20 @@
                 <a class="col-3 menu-element" href="kontakt.html">KONTAKT</a>
             </div>
             <div id="slider" class="basic">
-
+                <div class="slide fade" id="first-slide">
+                    <div class="which-slide">1 / 3</div>
+                    <p>NAJLEPSZE FARBY W POLSCE!</p>
+                </div>
+                <div class="slide fade" id="second-slide">
+                    <div class="which-slide">2 / 3</div>
+                    <p>NAJLEPSZE FARBY W POLSCE!</p>
+                </div>
+                <div class="slide fade" id="third-slide">
+                    <div class="which-slide">3 / 3</div>
+                    <p>NAJLEPSZE FARBY W POLSCE!</p>
+                </div>
+                <a id="previous" onclick="ChangeSlides(-1)">&#10094;</a>
+                <a id="next" onclick="ChangeSlides(1)">&#10095;</a>
             </div>
             <div id="content" class="basic col-10">
                 <div id="b-header">BESTSELLERY</div>
