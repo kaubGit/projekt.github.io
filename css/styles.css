@@ -351,7 +351,9 @@ html body {
 
 #cont1 {
     display: flex;
+    justify-content: space-between;
     height: 300px;
+    background-color: #e5e5e5;
 }
 
 #cont-text {
@@ -395,7 +397,8 @@ html body {
 }
 
 #cont-text {
-    background-color: #e5e5e5;
+    background-color: #d7d7d7;
+    margin: auto 5px;
 }
 
 #cont2 {
