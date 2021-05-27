@@ -6,6 +6,7 @@
     margin: auto;
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 
 .basic {
@@ -41,6 +42,7 @@
     text-align: left;
     border: none;
     padding-right: 50px;
+    transition: 0.2s;
 }
 
 #search::placeholder {
@@ -59,8 +61,8 @@
 }
 
 #slider {
-    background-color: #e5e5e5;
     height: 140px;
+    margin-top: 20px;
 }
 
 #content {
@@ -164,6 +166,7 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    margin-top: -7px;
 }
 
 #big-footer div ul li a {
@@ -171,12 +174,7 @@
     color: black;
 }
 
-#big-footer div ul li a:hover {
-    text-decoration: none;
-    color: black;
-}
-
-.slide {
+.sl22222ide {
     display: none;
     height: 100%;
     text-align: center;
@@ -184,14 +182,19 @@
     font-size: 40px;
 }
 
-#previous, #next {
+#butt22ons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+#prev22ious, #nex22t {
     cursor: pointer;
-    position: absolute;
-    top: 50%;
-    margin-top: -185px;
+    position: relative;
     width: auto;
     padding: 16px;
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 40px;
     transition: 0.6s ease;
@@ -199,19 +202,18 @@
     user-select: none;
 }
 
-#next {
+#ne22xt {
     border-radius: 3px 0 0 3px;
-    right: 400px;
 }
 
-.which-slide {
+.which-sli22de {
     position: absolute;
     color: #f2f2f2;
     font-size: 12px;
     padding: 8px 12px;
 }
 
-.fade {
+.fad222e {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
@@ -220,17 +222,17 @@
     -webkit-animation-fill-mode: forwards;
 }
 
-@-webkit-keyframes fade {
+@-webkit-keyframes fa222de {
     from {opacity: .4}
     to {opacity: 1}
 }
   
-@keyframes fade {
+@keyframes fa222de {
     from {opacity: .4}
     to {opacity: 1}
 }
 
-.text {
+.t22222ext {
     position: relative;
     margin: auto;
     font-size: 40px;
@@ -239,21 +241,92 @@
 }
 
 #first-slide {
-    display: block;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/slider.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/slider.jpg');
     background-size: cover;
 }
 
 #second-slide {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/slider2.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/slider2.jpg');
     background-size: cover;
 }
 
 #third-slide {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/slider3.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/slider3.jpg');
     background-size: cover;
 }
 
 .slide p {
     line-height: 140px;
 }
+
+#menu a {
+    transition: 0.2s;
+}
+
+#menu a:hover {
+    color: #3cb878;
+    transition: 0.2s;
+}
+
+#header input[type="text"]:hover {
+    background-color: #d7d7d7;
+    transition: 0.2s;
+}
+
+#help a:hover {
+    color: #3cb878;
+    transition: 0.2s;
+}
+
+#help a {
+    transition: 0.2s;
+}
+
+#newsletter form input[type="text"] {
+    transition: 0.2s;
+    border: none;
+}
+
+#newsletter form input[type="text"]:hover {
+    background-color: #d7d7d7;
+    transition: 0.2s;
+}
+
+#newsletter form input[type="submit"]:hover {
+    color: #3cb878;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#newsletter form input[type="submit"] {
+    transition: 0.2s;
+}
+
+.carousel-item img {
+    height: 140px;
+    filter: brightness(70%);
+}
+
+.carousel-caption {
+    text-align: center;
+    margin: auto;
+}
+
+.carousel-caption p {
+    line-height: 40px;
+    font-size: 40px;
+}
+
+#slider ol {
+    margin-bottom: -5px;
+}
+
+.but:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 0.2s;
+}
+
+.but {
+    transition: 0.2s;
+}
+
