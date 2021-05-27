@@ -356,7 +356,8 @@ html body {
 
 #cont-text {
     font-size: 16px;
-    height: auto;
+    height: 200px;
+    margin: auto;
 }
 
 #cont-text div {
@@ -410,4 +411,25 @@ html body {
 #cont2 form input[type="submit"]:hover {
     cursor: pointer;
     color: #3cb878;
+}
+
+#s-footer {
+    background-color: #ebebeb;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#f-icons {
+    margin-left: 20px;
+    margin: auto 0 auto 20px;
+}
+
+#cop {
+    margin-right: 20px;
+    align-self: flex-end;
+}
+
+#facebook, #instagram {
+    margin-right: 20px;
 }
