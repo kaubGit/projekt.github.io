@@ -42,7 +42,6 @@ html body {
 }
 
 #search {
-    background-color: #f9f9f9;
     height: 40%;
     text-align: left;
     border: none;
@@ -335,3 +334,80 @@ html body {
     transition: 0.2s;
 }
 
+#newsletter form input[type="text"]:active {
+    background-color: #a0a0a0;
+}
+
+#header input[type="text"]:active {
+    background-color: #a0a0a0;
+}
+
+#cont {
+    height: 400px;
+    margin: 20px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#cont1 {
+    display: flex;
+    height: 300px;
+}
+
+#cont-text {
+    font-size: 16px;
+    height: auto;
+}
+
+#cont-text div {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#cont2 {
+    margin-top: 20px;
+}
+
+#cont2 form {
+    text-align: center;
+}
+
+#cont2 form input, #cont2 form textarea {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    transition: 0.2s;
+    border: none;
+}
+
+#cont2 form input:hover, #cont2 form textarea:hover {
+    background-color: #d7d7d7;
+    transition: 0.2s;
+}
+
+#cont2 form input:active, #cont2 form textarea:active {
+    background-color: #a0a0a0;
+}
+
+#cont-text {
+    background-color: #e5e5e5;
+}
+
+#cont2 {
+    background-color: #e5e5e5;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#cont2 form {
+    margin: 20px auto;
+}
+
+#cont2 form input[type="submit"]:hover {
+    cursor: pointer;
+    color: #3cb878;
+}
