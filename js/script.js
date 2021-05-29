@@ -64,7 +64,7 @@ slide.addEventListener('transitionstart',()=>{
     }
 });
 
-dots[0].addEventListener('click',()=>{
+/*$('.dot')*/dots[0].addEventListener('click',()=>{
     slide.style.transition = "transform 0.5s ease-in-out";
     z = 1;
     slide.style.transform = 'translateX(' + (-size * z) + 'px)';
