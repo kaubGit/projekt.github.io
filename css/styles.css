@@ -606,3 +606,7 @@ html body {
     left: 522px;
     color: white;
 }
+
+#cont iframe {
+    width: 100%;
+}
