@@ -1,5 +1,8 @@
 * {
     font-family: 'Century Gothic';
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
 
 html body {
@@ -67,6 +70,35 @@ html body {
 #slider {
     height: 140px;
     margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.oneSlide {
+    width: 100%;
+    height: 140px;
+}
+
+#prev {
+    position: absolute;
+    top: 40%;
+    z-index: 10;
+    left: 5%;
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+    transition: 0.4s;
+}
+
+#next {
+    position: absolute;
+    top: 40%;
+    z-index: 10;
+    right: 5%;
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+    transition: 0.4s;
 }
 
 #content {
@@ -435,4 +467,131 @@ html body {
 
 #facebook, #instagram {
     margin-right: 20px;
+}
+
+.d1 {
+    position: absolute;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/slider3.jpg);
+    display: inline-block;
+    width: 1110px;
+    height: 100%;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.d2 {
+    position: absolute;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/slider.jpg);
+    display: inline-block;
+    width: 1110px;
+    height: 100%;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-left: 1110px;
+}
+
+.d3 {
+    position: absolute;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/slider2.jpg);
+    display: inline-block;
+    width: 1110px;
+    height: 100%;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-left: 2220px;
+}
+
+.d4 {
+    position: absolute;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/slider3.jpg);
+    display: inline-block;
+    width: 1110px;
+    height: 100%;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-left: 3330px;
+}
+
+.d5 {
+    position: absolute;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/slider.jpg);
+    display: inline-block;
+    width: 1110px;
+    height: 100%;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-left: 4440px;
+}
+
+#next:hover {
+    color: #3cb878;
+    transition: 0.4s;
+}
+
+#prev:hover {
+    color: #3cb878;
+    transition: 0.4s;
+}
+
+.oneSlide div {
+    color: white;
+    font-size: 50px;
+}
+
+.oneSlide div p {
+    text-align: center;
+    line-height: 280%;
+}
+
+@media (max-width: 1200px) {
+    .oneSlide div p {
+        display: none;
+    }
+    #dots {
+        display: none;
+    }
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: 0.4s;
+}
+
+.dot {
+    opacity: 60%;
+}
+
+.dot-active {
+    opacity: 100%;
+}
+
+.dot:hover {
+    color: #3cb878;
+    opacity: 100%;
+    transition: 0.4s;
+}
+
+#dots {
+    position: absolute;
+    z-index: 10;
+    bottom: 5%;
+    right: 522px;
+    left: 522px;
+    color: white;
 }
