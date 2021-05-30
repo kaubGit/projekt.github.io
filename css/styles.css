@@ -226,91 +226,6 @@ html body {
     color: black;
 }
 
-.sl22222ide {
-    display: none;
-    height: 100%;
-    text-align: center;
-    color: white;
-    font-size: 40px;
-}
-
-#butt22ons {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-}
-
-#prev22ious, #nex22t {
-    cursor: pointer;
-    position: relative;
-    width: auto;
-    padding: 16px;
-    color: black;
-    font-weight: bold;
-    font-size: 40px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-}
-
-#ne22xt {
-    border-radius: 3px 0 0 3px;
-}
-
-.which-sli22de {
-    position: absolute;
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-}
-
-.fad222e {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-    animation-fill-mode: forwards; 
-    -webkit-animation-fill-mode: forwards;
-}
-
-@-webkit-keyframes fa222de {
-    from {opacity: .4}
-    to {opacity: 1}
-}
-  
-@keyframes fa222de {
-    from {opacity: .4}
-    to {opacity: 1}
-}
-
-.t22222ext {
-    position: relative;
-    margin: auto;
-    font-size: 40px;
-    color: white;
-    text-align: center;
-}
-
-#first-slide {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/slider.jpg');
-    background-size: cover;
-}
-
-#second-slide {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/slider2.jpg');
-    background-size: cover;
-}
-
-#third-slide {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/slider3.jpg');
-    background-size: cover;
-}
-
-.slide p {
-    line-height: 140px;
-}
-
 #menu a {
     transition: 0.2s;
 }
@@ -351,34 +266,6 @@ html body {
 }
 
 #newsletter form input[type="submit"] {
-    transition: 0.2s;
-}
-
-.carousel-item img {
-    height: 140px;
-    filter: brightness(70%);
-}
-
-.carousel-caption {
-    text-align: center;
-    margin: auto;
-}
-
-.carousel-caption p {
-    line-height: 40px;
-    font-size: 40px;
-}
-
-#slider ol {
-    margin-bottom: -5px;
-}
-
-.but:hover {
-    background-color: rgba(0, 0, 0, 0.5);
-    transition: 0.2s;
-}
-
-.but {
     transition: 0.2s;
 }
 
