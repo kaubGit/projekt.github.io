@@ -310,16 +310,17 @@ html body {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    transition: 0.2s;
+    transition: background-color 0.5s;
 }
 
 #cont2 form input:hover, #cont2 form textarea:hover {
     background-color: #d7d7d7;
-    transition: 0.2s;
+    transition: background-color 0.5s;
 }
 
 #cont2 form input:active, #cont2 form textarea:active {
     background-color: #a0a0a0;
+    transition: 0.2s;
 }
 
 #cont-text {
@@ -652,11 +653,11 @@ input:focus, textarea:focus, select:focus{
 
 #cont2 input[type="text"], input[type="email"], textarea {
     border: 2px solid #ebebeb;
-    transition: 0.5s;
+    transition: border background-color 0.5s;
 }
 
 #cont2 input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
     border: 2px solid #3cb878;
-    transition: 0.5s;
+    transition: border background-color 0.5s;
 }
 
