@@ -645,11 +645,11 @@ html body {
 
     #text-content div {
         min-width: 100%;
-        padding-bottom: 20px;
     }
 
     #our-products, #newsletter {
         margin-top: 20px;
+        padding-bottom: 20px
     }
 
     #bestsellers {
@@ -687,11 +687,6 @@ html body {
 
     #big-footer {
         font-size: 14px;
-    }
-
-    #bestsellers {
-        flex-wrap: wrap;
-        justify-content: space-around;
     }
 
     #b3 {
