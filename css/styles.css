@@ -560,6 +560,19 @@ html body {
         min-width: 97%;
         margin: 5px auto;
     }
+
+    #big-footer {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    #help, #contact {
+        min-width: 40%;
+    }
+
+    #map iframe {
+        margin-top: 1%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -569,10 +582,6 @@ html body {
 
     #menu a {
         line-height: 340%;
-    }
-
-    #map iframe {
-        height: 50%;
     }
 
     #big-footer {
@@ -595,23 +604,21 @@ html body {
 }
 
 @media (max-width: 490px) {
-    #map {
-        width: 20px;
-    }
-    #map h4, #map iframe {
-        display: none;
-    }
-    #map a {
-        display: block;
-        font-size: 12px;
-        margin-top: 59.5px;
-        background-color: #3cb878;
-        padding: 10px 2px;
-    }
     #s-footer {
         height: auto;
         padding-top: 5px;
         padding-bottom: 5px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #f-icons {
+        margin: auto;
+    }
+
+    #cop {
+        text-align: center;
+        margin: 5px auto 0 auto;
     }
 }
 
