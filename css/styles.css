@@ -406,16 +406,9 @@ html body {
 
 #cont-text {
     font-size: 16px;
-    height: 200px;
+    height: auto;
     margin: auto;
-}
-
-#cont-text div {
-    position: relative;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    padding-top: 15.5px;
 }
 
 #cont2 {
@@ -692,6 +685,16 @@ html body {
     #b3 {
         margin-top: 20px;
     }
+
+    #cont1 {
+        height: auto;
+        flex-direction: column;
+    }
+
+    #cont-text {
+        min-width: 97%;
+        margin: 5px auto;
+    }
 }
 
 @media (max-width: 576px) {
@@ -704,7 +707,7 @@ html body {
     }
 }
 
-@media (max-width: 474px) {
+@media (max-width: 490px) {
     #map {
         width: 20px;
     }
@@ -720,6 +723,8 @@ html body {
     }
     #s-footer {
         height: auto;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
 }
 
