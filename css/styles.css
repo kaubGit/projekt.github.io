@@ -320,7 +320,7 @@ html body {
 
 #cont2 form input:active, #cont2 form textarea:active {
     background-color: #a0a0a0;
-    transition: 0.2s;
+    transition: background-color 0.2s;
 }
 
 #cont-text {
