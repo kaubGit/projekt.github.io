@@ -735,3 +735,9 @@ html body {
         margin-top: 20px;
     }
 } 
+
+#cont2 h3 {
+    color: #3cb878;
+    text-align: center;
+    margin-top: 10px;
+}
