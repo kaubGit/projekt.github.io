@@ -616,6 +616,11 @@ html body {
     width: 100%;
 }
 
+#map a {
+    display: none;
+    color: black;
+}
+
 #map iframe {
     width: 100%;
     height: 65%;
@@ -689,8 +694,37 @@ html body {
     }
 }
 
+@media (max-width: 576px) {
+    #menu {
+        flex-direction: column;
+        height: auto;
+    }
+    #menu a {
+        min-width: 100%;
+    }
+}
+
+@media (max-width: 474px) {
+    #map {
+        width: 20px;
+    }
+    #map h4, #map iframe {
+        display: none;
+    }
+    #map a {
+        display: block;
+        font-size: 12px;
+        margin-top: 59.5px;
+        background-color: #3cb878;
+        padding: 10px 2px;
+    }
+    #s-footer {
+        height: auto;
+    }
+}
+
 @media (max-width: 400px) {
     #b2 {
         margin-top: 20px;
     }
-}
+} 
