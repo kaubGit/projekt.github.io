@@ -655,16 +655,23 @@ input:focus, textarea:focus, select:focus{
 
 #header input[type="text"]:focus {
     border: 2px solid #ebebeb;
-    transition: 0.5s;
 }
 
-#cont2 input[type="text"], input[type="email"], textarea {
+#cont2 input[type="text"], input[type="email"] {
     border: 2px solid #ebebeb;
-    transition: border background 0.5s;
 }
 
-#cont2 input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+textarea {
+    border: 2px solid #ebebeb;
+    transition: background-color 0.5s;
+}
+
+#cont2 input[type="text"]:focus, input[type="email"]:focus {
     border: 2px solid #3cb878;
-    transition: border background 0.5s;
+}
+
+textarea:focus {
+    border: 2px solid #3cb878;
+    transition: background-color 0.5s;
 }
 
