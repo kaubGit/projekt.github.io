@@ -660,11 +660,11 @@ input:focus, textarea:focus, select:focus{
 
 #cont2 input[type="text"], input[type="email"], textarea {
     border: 2px solid #ebebeb;
-    transition: border background-color 0.5s;
+    transition: border background 0.5s;
 }
 
 #cont2 input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
     border: 2px solid #3cb878;
-    transition: border background-color 0.5s;
+    transition: border background 0.5s;
 }
 
